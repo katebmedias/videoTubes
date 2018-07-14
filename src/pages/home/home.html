@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="vt-renderer">
+    <div class="vt-renderer-scope">
+      <video-item *ngFor="let it of videos" [item]="it"></video-item>
+    </div>
+  </div>
+</ion-content>

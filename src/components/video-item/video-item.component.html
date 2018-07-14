@@ -1,0 +1,13 @@
+<div class="vt-grid">
+    <a class="vt-tumbnail" (click)="pushPage()">
+        <img [src]="item.image">
+        <span class="overlay vt-status vt-status-time">{{item.duration}}</span>
+    </a>
+    <div class="vt-caption">
+        <h3>{{item.title}}</h3>
+        <div class="vt-metadata-wrap">
+            <span class="vt-metadata vt-metadata-views">{{item.viewCount}}</span>
+            <span class="vt-metadata vt-metadata-date">{{item.date}}</span>
+        </div>
+    </div>
+</div>
