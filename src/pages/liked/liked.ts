@@ -9,7 +9,8 @@ import { FakeData3 } from '../../models/fake-data/fake-data3';
 })
 export class LikedPage {
 
-    videos:Array<Video>
+  videos: Array<Video>
+  pageTitle: string = "محبوب ترین ها";
   constructor(public navCtrl: NavController) {
     var fakedata3 = new FakeData3();
     this.videos = fakedata3.init();

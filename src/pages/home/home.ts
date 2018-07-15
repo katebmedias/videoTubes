@@ -9,6 +9,7 @@ import { FakeData1 } from '../../models/fake-data/fake-data1';
 })
 export class HomePage {
   videos: Array<Video>
+  pageTitle: string = "صفحه اصلی"
   constructor(public navCtrl: NavController) {
 
     var fakedata = new FakeData1();

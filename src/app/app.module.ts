@@ -12,6 +12,7 @@ import { VisitedPage } from '../pages/visited/visited';
 import { LikedPage } from '../pages/liked/liked';
 import { VideoItem } from '../components/video-item/video-item.component';
 import { DetailPage } from '../pages/detail/detail';
+import { HeaderNav } from '../components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DetailPage } from '../pages/detail/detail';
     HomePage,
     DetailPage,
     TabsPage,
-    VideoItem
+    VideoItem,
+    HeaderNav
   ],
   imports: [
     BrowserModule,

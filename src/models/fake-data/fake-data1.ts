@@ -8,7 +8,7 @@ export class FakeData1 {
         video1.description = "";
         video1.date = "1 هفته پیش";
         video1.duration = "18:42";
-        video1.image = "https://i.ytimg.com/vi/n7diJVM697c/hqdefault.jpg?sqp=-oaymwEYCNIBEHZIVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAO918IyrijWKsI2tt2YrckGL_9kg";
+        video1.image = "../assets/imgs/hqdefault.webp";
         video1.link = "1";
         video1.viewCount = 5;
         video1.id = 1;
@@ -19,7 +19,7 @@ export class FakeData1 {
         video2.description = "";
         video2.date = "2 هفته پیش";
         video2.duration = "2:25";
-        video2.image = "https://i.ytimg.com/vi/n7diJVM697c/hqdefault.jpg?sqp=-oaymwEYCNIBEHZIVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAO918IyrijWKsI2tt2YrckGL_9kg";
+        video2.image = "../assets/imgs/hqdefault2.webp";
         video2.link = "2";
         video2.viewCount = 7;
         video2.id = 2;

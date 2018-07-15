@@ -10,6 +10,7 @@ import { FakeData2 } from '../../models/fake-data/fake-data2';
 export class VisitedPage {
 
   videos: Array<Video>
+  pageTitle: string = "پربازدیدترین ها";
   constructor(public navCtrl: NavController) {
     var fakedata2 = new FakeData2();
     this.videos = fakedata2.init();
