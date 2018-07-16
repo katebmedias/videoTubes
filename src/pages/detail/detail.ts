@@ -8,10 +8,13 @@ import { NavController, NavParams } from 'ionic-angular';
 export class DetailPage {
 
   id;
+  title;
+  viewCount;
   constructor(private navParams: NavParams) {
     
     this.id = navParams.get('id');
-
+    this.title = navParams.get('title');
+    this.viewCount = navParams.get('viewCount');
  }
 
 }

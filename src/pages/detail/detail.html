@@ -5,11 +5,76 @@
         </ion-title>
     </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-    <div class="vt-renderer">
-        <div class="vt-subheader">
-            <h2 class="vt-title">جزئیات {{id}}</h2>
+<ion-content>
+    <div class="vt-detail">
+        <div class="vt-detail-header">
+            <video class="vt-media" controls>
+                <source src="../assets/video/shr.MP4">
+            </video>
+            <div class="vt-actions">
+                <ion-icon name="thumbs-up"></ion-icon>
+                <ion-icon name="thumbs-down"></ion-icon>
+                <ion-icon name="md-share"></ion-icon>
+                <ion-icon name="md-download"></ion-icon>
+            </div>
+        </div>
+        <div class="vt-renderer vt-padding">
+            <h1 class="vt-mainheader">{{title}}</h1>
+            <div class="vt-view-count">تعداد بازدید: {{viewCount}}</div>
+        </div>
+        <hr class="vt-seperator">
+        <div class="vt-comments">
+            <div class="vt-comment-title">
+                نظر کاربران <span>220</span>
+            </div>
+            <div class="vt-comment-form">
+                <textarea class="form-control" placeholder="لطفا نظر خود را بنویسید"></textarea>
+            </div>
+            <hr class="vt-seperator">
+            <div class="vt-comment-list">
+                <div class="vt-photo">
+                    <span class="vt-photo vt-photo-initial user-0">k</span>
+                </div>
+                <div class="vt-comment-body">
+                    <div class="vt-comment-meta">
+                        <span class="vt-comment-meta-name">katebmedia</span>
+                        <span class="vt-comment-meta-date">1 هفته پیش</span>
+                    </div>
+                    <div class="vt-comment-text">
+                        خیلی هم عالی و پسندیده
+                    </div>
+                </div>
+            </div>
+            <hr class="vt-seperator">
+            <div class="vt-comment-list">
+                <div class="vt-photo">
+                    <span class="vt-photo vt-photo-initial user-1">k</span>
+                </div>
+                <div class="vt-comment-body">
+                    <div class="vt-comment-meta">
+                        <span class="vt-comment-meta-name">katebmedia</span>
+                        <span class="vt-comment-meta-date">1 هفته پیش</span>
+                    </div>
+                    <div class="vt-comment-text">
+                        خیلی هم عالی و پسندیده
+                    </div>
+                </div>
+            </div>
+            <hr class="vt-seperator">
+            <div class="vt-comment-list">
+                <div class="vt-photo">
+                    <span class="vt-photo vt-photo-initial user-2">k</span>
+                </div>
+                <div class="vt-comment-body">
+                    <div class="vt-comment-meta">
+                        <span class="vt-comment-meta-name">katebmedia</span>
+                        <span class="vt-comment-meta-date">1 هفته پیش</span>
+                    </div>
+                    <div class="vt-comment-text">
+                        خیلی هم عالی و پسندیده
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </ion-content>

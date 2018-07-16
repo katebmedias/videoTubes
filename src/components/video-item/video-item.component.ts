@@ -16,7 +16,9 @@ import { DetailPage } from '../../pages/detail/detail';
       }
       pushPage(){
         this.navCtrl.push(DetailPage, {
-        id: this.item.id
+        id: this.item.id,
+        title: this.item.title,
+        viewCount: this.item.viewCount
         });
       }
   }
