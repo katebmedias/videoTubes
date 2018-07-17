@@ -31,6 +31,10 @@ h2
 .vt-dir ion-icon {
   font-family: Ionicons !important;
 }
+.vt-dir .item-md
+{
+  padding-left: 0;
+}
 .vt-title
 {
 margin-top: 24px;
@@ -257,17 +261,52 @@ div.vt-photo
   color: #666;
   margin-bottom: 5px;
 }
-.vt-comment-list:before,
-.vt-comment-list:after
+.clearfix:before,
+.clearfix:after
 {
   content: "";
   display: table;
 }
-.vt-comment-list:after
+.clearfix:after
 {
   clear: both;
 }
 .vt-comment-body
 {
   overflow: hidden;
+}
+.vt-drawer .label-md
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.vt-drawer .label-md span
+{
+  font-size: 14px;
+}
+.vt-drawer .label-md ion-icon
+{
+  vertical-align: middle;
+  margin-left: 24px;
+}
+.vt-drawer-account
+{
+  padding: 10px 16px;
+  background-color: #eee;
+}
+.vt-drawer-submenu
+{
+  padding: 10px 16px;
+}
+.vt-drawer-submenu ion-icon
+{
+  vertical-align: middle;
+  margin-left: 8px;
+  color: #888;
+  font-size: 21px;
+}
+.vt-drawer-submenu span
+{
+  color: #8c8c8c;
+  font-size: 13px;
 }

@@ -12,6 +12,7 @@ export class FakeData3 {
         video1.link = "1";
         video1.viewCount = 5;
         video1.id = 5;
+        video1.srcmp4 = "../assets/video/shr.MP4";
 
         var video2 = new Video();
         video2.title = "ddd";
@@ -23,6 +24,7 @@ export class FakeData3 {
         video2.link = "2";
         video2.viewCount = 7;
         video2.id = 6;
+        video1.srcmp4 = "../assets/video/shr.MP4";
 
         var videos: Array<Video> = [];
         videos.push(video1);

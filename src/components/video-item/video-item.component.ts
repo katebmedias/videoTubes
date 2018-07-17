@@ -14,11 +14,9 @@ import { DetailPage } from '../../pages/detail/detail';
       constructor(public navCtrl: NavController){
           
       }
-      pushPage(){
+      pushPage(item){
         this.navCtrl.push(DetailPage, {
-        id: this.item.id,
-        title: this.item.title,
-        viewCount: this.item.viewCount
+        id: this.item.id
         });
       }
   }

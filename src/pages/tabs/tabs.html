@@ -1,5 +1,28 @@
-<ion-tabs>
+<ion-tabs #mycontent>
   <ion-tab [root]="tab1Root" tabTitle="جدیدترین ها" tabIcon="time"></ion-tab>
   <ion-tab [root]="tab2Root" tabTitle="پربازدیدترین ها" tabIcon="eye"></ion-tab>
   <ion-tab [root]="tab3Root" tabTitle="محبوبترین ها" tabIcon="heart"></ion-tab>
 </ion-tabs>
+<ion-menu class="vt-drawer" side="right" [content]="mycontent">
+  <ion-content>
+    <ion-list>
+      <ion-item menuClose detail-none>
+        <ion-icon name="close"></ion-icon>
+        <span>حساب کاربری</span>
+      </ion-item>
+      <div class="vt-drawer-account clearfix">
+        <div class="vt-photo">
+          <span class="vt-photo vt-photo-initial user-0">k</span>
+        </div>
+      </div>
+      <div class="vt-drawer-submenu">
+        <ion-icon name="lock"></ion-icon>
+        <span>ورود</span>
+      </div>
+      <div class="vt-drawer-submenu">
+        <ion-icon name="person-add"></ion-icon>
+        <span>ثبت نام</span>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-menu>

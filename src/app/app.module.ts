@@ -13,6 +13,8 @@ import { LikedPage } from '../pages/liked/liked';
 import { VideoItem } from '../components/video-item/video-item.component';
 import { DetailPage } from '../pages/detail/detail';
 import { HeaderNav } from '../components/header/header.component';
+import { HttpClientModule } from '../../node_modules/@angular/common/http';
+import { CommentItem } from '../components/comment-item/comment-item.component';
 
 @NgModule({
   declarations: [
@@ -23,11 +25,20 @@ import { HeaderNav } from '../components/header/header.component';
     DetailPage,
     TabsPage,
     VideoItem,
-    HeaderNav
+    HeaderNav,
+    CommentItem
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    HttpClientModule,
+    IonicModule.forRoot(MyApp,{
+      menuType: 'push',
+      platforms: {
+        ios: {
+          menuType: 'overlay',
+        }
+      }
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -8,4 +8,6 @@ export class Video {
     link: string;
     duration: string;
     date: string;
+    srcmp4: string;
+    srcogg: string;
 }
