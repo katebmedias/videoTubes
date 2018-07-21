@@ -15,6 +15,7 @@ import { DetailPage } from '../pages/detail/detail';
 import { HeaderNav } from '../components/header/header.component';
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { CommentItem } from '../components/comment-item/comment-item.component';
+import { LoginPage } from '../pages/account/login-page';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CommentItem } from '../components/comment-item/comment-item.component';
     LikedPage,
     HomePage,
     DetailPage,
+    LoginPage,
     TabsPage,
     VideoItem,
     HeaderNav,
@@ -47,6 +49,7 @@ import { CommentItem } from '../components/comment-item/comment-item.component';
     LikedPage,
     HomePage,
     TabsPage,
+    LoginPage,
     DetailPage
   ],
   providers: [

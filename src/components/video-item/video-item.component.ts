@@ -14,7 +14,7 @@ import { DetailPage } from '../../pages/detail/detail';
       constructor(public navCtrl: NavController){
           
       }
-      pushPage(item){
+      goDetailPage(item){
         this.navCtrl.push(DetailPage, {
         id: this.item.id
         });
